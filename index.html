@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="image fade">
+      <img src="/img/1.jpg" alt="Flower picture 1" width="100%">
+    </div> 
+    <div class="image fade">
+      <img src="/img/2.jpg" alt="Flower picture 2" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="/img/3.jpg" alt="Flower picture 3" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="/img/4.jpg" alt="Flower picture 4" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="/img/5.jpg" alt="Flower picture 5" width="100%">
+    </div>
+
+    <i id="prev" onclick="show_image(-1)" class="fa-solid fa-backward"></i>
+    <i id="next" onclick="show_image(1)" class="fa-solid fa-forward"></i>
+
+    <div class="dots">
+        <span class="dots"></span>
+        <span class="dots"></span>
+        <span class="dots"></span>
+        <span class="dots"></span>
+        <span class="dots"></span>
+    </div>
+
+  </div>
+
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
